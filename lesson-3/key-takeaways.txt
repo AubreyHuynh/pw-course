@@ -1,0 +1,15 @@
+
+Git
+•	Undo actions
+•	Branching model
+
+Javascript
+•	Logical operator
+•	Object and array
+•	Function
+•	Phạm vi của biến
+•	So sánh tương đối và so sánh tuyệt đối (== and !=)
+•	if…else, if…else if, switch…case
+•	foreach, for…in, for…of
+•	break and continue
+

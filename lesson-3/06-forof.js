@@ -23,6 +23,10 @@ function findFirstAndLastIndices(array, value) {
     console.log(`Vị trí phần tử cuối cùng: ${lastIndex}`);
 }
 
+<<<<<<< HEAD
+=======
+// Ví dụ
+>>>>>>> 54cca406c40b598a4d36532c9c08946332fac988
 let arrayList = [1, 2, 3, 4, 3, 55, 23];
 let value = 3;
 findFirstAndLastIndices(arrayList, value);

@@ -6,9 +6,28 @@ for (let char of strIn01) {
 }
 
 // 2.Tìm và in ra vị trí phần tử đầu tiên và cuối cùng trong một mảng bằng với giá trị cho trước:
-/**
- * ! CHƯA TÌM RA GIẢI PHÁP
- */
+function findFirstAndLastIndices(array, value) {
+    let firstIndex = -1;
+    let lastIndex = -1;
+
+    for (let [index, element] of array.entries()) {
+        if (element === value) {
+            if (firstIndex === -1) {
+                firstIndex = index;
+            }
+            lastIndex = index;
+        }
+    }
+
+    console.log(`Vị trí phần tử đầu tiên: ${firstIndex}`);
+    console.log(`Vị trí phần tử cuối cùng: ${lastIndex}`);
+}
+
+// Ví dụ
+let arrayList = [1, 2, 3, 4, 3, 55, 23];
+let value = 3;
+findFirstAndLastIndices(arrayList, value);
+
 
 // 3.Tạo mảng chứa các kí tự nghịch đảo từ một chuỗi đã cho:
 let strIn03 = "Playwright";

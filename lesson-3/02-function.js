@@ -191,6 +191,7 @@ function printMonthName(monthNumber) {
           monthName = "Tháng Mười Hai";
           break;
       default:
+        monthName = "Số tháng không hợp lệ!!!"
   }
 
   console.log(`Số tháng ${monthNumber} là: ${monthName}.`);

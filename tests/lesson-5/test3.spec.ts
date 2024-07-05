@@ -30,7 +30,6 @@ test("“Bài học 3: Todo page", async ({ page }) => {
   
     for (let i = 1; i <= 100; i++) {
       if (i % 2 !== 0) {
-        // Sửa lại phần 'onlick' thành 'onclick' và đảm bảo cấu trúc XPath chính xác
         await page.locator(`//li/span[text()='Todo ${i}']/following-sibling::div/button[contains(@onclick, 'deleteTask')]`).click();
       }
     }
